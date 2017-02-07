@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#6D8FB2"
+                    android:textStyle="bold"
+                    android:text="HELPLINE:" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="#6D8FB2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:text="Toll free number:" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="18002700376" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#6D8FB2"
+                    android:textStyle="bold"
+                    android:text="Web" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="#6D8FB2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:text="Website:" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="web"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="www.bits.edu.in" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="E-mail:"
+                    android:textSize="17sp"
+                    android:padding="15dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bitsgmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#3CB7E4"
+                    android:onClick="clicked"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="bits.sonepat@gmail.com" />
+
+                <Button
+                    android:id="@+id/bitsmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#3CB7E4"
+                    android:onClick="clicked"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="admissions@bits.edu.in" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Haryana Campus"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#6D8FB2"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#6D8FB2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="Call Us:"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:drawableLeft="@drawable/telvs"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="0130-255-5871" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:drawableLeft="@drawable/telvs"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="0130-255-5876" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:drawableLeft="@drawable/mobile"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="+91-93555-94010" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:drawableLeft="@drawable/mobile"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="+91-93555-94012" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:drawableLeft="@drawable/mobile"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="+91-93555-94015" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="Address:"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#6D8FB2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sonepat-Gohana National Highway,\nNear Mohana Police Station,\nSonepat (Haryana)."
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Locate" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Delhi Office"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#6D8FB2"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="#6D8FB2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="Call Us:"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:drawableLeft="@drawable/mobile"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="+91-86-07-300102" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:drawableLeft="@drawable/mobile"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="+91-93-13-122848" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:drawableLeft="@drawable/mobile"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="+91-93-13-569758" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="Address:"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="314, SG Shopping Mall, DC Chownk Central Market,\nNear Kamdhenu Apartment, Sector-9, Rohini"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/map2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="clicked"
+                    android:text="Locate" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

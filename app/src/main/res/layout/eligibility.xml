@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#6D8FB2"
+                android:textStyle="bold"
+                android:text="Polytechnic" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#6D8FB2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:text="•The candidate must have passed Matric examination with minimum 35% or its equivalent from any recognized Institute/Board.\n\n•Candidate should have appeared in DET * (* Compulsory for students seeking admission through Haryana State Counselling Society)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#6D8FB2"
+                android:textStyle="bold"
+                android:text="Polytechnic LEET for ITI holders" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#6D8FB2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:text="The candidate must have passed ITI (2 years duration)/10+2 examination or its equivalent from any recognised Institute/Board." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#6D8FB2"
+                android:textStyle="bold"
+                android:text="B.Tech" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#6D8FB2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:text="•The Candidate must have passed 10+2 level or equivalent examination from any recognised board or university.\n\n•Candidate should have secured minimum 45% (40% for SC/ST) marks in total of Physics, Chemistry (or computer), Math.\n\n•Candidate should have appeared in AIEEE*. (* Compulsory for students seeking admission through Haryana State Counselling Society)." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#6D8FB2"
+                android:textStyle="bold"
+                android:text="B.Tech LEET for Diploma Holder" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#6D8FB2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:text="•The candidate must have passed diploma in Engineering/ Technology of 03 years duration or its equivalent from any recognized Institutions.\n\n•B.Sc. passed from any recognised university." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#6D8FB2"
+                android:textStyle="bold"
+                android:text="BBA" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#6D8FB2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:text="•The Candidate must have passed 10+2 level or equivalent examination from any recognised board or university, securing minimum 45% (40% for SC/ST) marks in aggregate.\n\n•Students will have to undergo tests of NIIT for Diploma in Banking programme which makes students readily employable in banking sector with the strong placement support of NIIT. This is optional programme offered to wiling and deserving students at additional cost as per laid down criterion." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#6D8FB2"
+                android:textStyle="bold"
+                android:text="MBA" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#6D8FB2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:text="•The Candidate must have passed three year degree course from a recognised university securing minimum 50% (45% for SC/ST) marks in aggregate.\n\n•C-MAT/CAT/MAT/XAT score desired." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#6D8FB2"
+                android:textStyle="bold"
+                android:text="GNM" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#6D8FB2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:text="Candidate must have passed 10+2 (PCB) level or equivalent examination from any recognised board or university, securing minimum 40% (35% for SC/ST) marks in aggregate with English as one of the subjects." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#6D8FB2"
+                android:textStyle="bold"
+                android:text="ANM" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#6D8FB2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:text="Candidate must have passed 12th with Min. 40% or as per INC norms." />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

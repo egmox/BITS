@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/programs"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@drawable/programs"
+                android:onClick="clicked"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Programs"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/branches"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@drawable/branches"
+                android:onClick="clicked" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Branches"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/eligibility"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@drawable/eligibility"
+                android:onClick="clicked"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Eligibility"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/enq"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@drawable/enquiry"
+                android:onClick="clicked" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Enquiry"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/forms"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@drawable/forms"
+                android:onClick="clicked"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Forms"/>
+
+    </LinearLayout>
+
+</LinearLayout>

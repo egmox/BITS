@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#6D8FB2"
+                android:textStyle="bold"
+                android:text="Recognition:" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="The college is affiliated to Deen Bandhu Chotu Ram University of Science &amp; Technology(DCRUST), Murthal." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#6D8FB2"
+                android:textStyle="bold"
+                android:text="Approval:" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#6D8FB2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="A.I.C.T.E." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="Ministry of HRD, Govt. of India" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="Directorate of Technical Education and Govt. of Haryana" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Developed by Gulshan(EGMOX)" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/egmox" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
